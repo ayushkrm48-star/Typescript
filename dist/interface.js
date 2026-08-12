@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function printStudent(student) {
     console.log(`Student Name is : ${student.name}`);
     console.log(`Student Age is : ${student.age}`);
@@ -47,4 +45,5 @@ function printOnlyUser(user) {
     console.log(`User Address is : ${user.address}`);
 }
 printOnlyUser({ phone: "2324", address: "India" });
+export {};
 //# sourceMappingURL=interface.js.map

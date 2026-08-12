@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Student {
     study() {
         console.log("Student is studying");
@@ -42,4 +40,5 @@ function calculateArea(shape) {
     }
 }
 console.log(calculateArea({ type: 'rectangle', length: 10, breadth: 10 }));
+export {};
 //# sourceMappingURL=typeNarrowing.js.map
